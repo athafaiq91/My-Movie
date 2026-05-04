@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start-dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "start-dev": "npx webpack serve --config webpack.dev.js",
+    "build": "npx webpack --config webpack.prod.js"
   },
   "author": "atha-faiq",
   "license": "ISC",
